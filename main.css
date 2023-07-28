@@ -1,0 +1,25 @@
+html {
+    background-color: grey;
+}
+
+.container {
+    display: grid;
+    /*grid-template-columns: repeat(64, 1fr);
+    grid-template-rows: repeat(64, 1fr);*/
+    gap: 0.1em;
+    width: 100%;
+}
+
+.container > div {
+    display: flex;
+    background: #eee;
+    padding-bottom: 100%;
+}
+
+h1 {
+    color: #9f0e29;
+}
+
+button {
+    margin-bottom: 2%;
+}
